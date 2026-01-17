@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
-const BASE_URL = 'https://dev.bssm-dev.com/api';
+const BASE_URL = 'https://proxy-dev.bssm-dev.com';
 
 export const options = {
   tags : {

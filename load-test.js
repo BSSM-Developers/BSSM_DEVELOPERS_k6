@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
-const BASE_URL = __ENV.BASE_URL || 'https://dev.bssm-dev.com/api';
+const BASE_URL = __ENV.BASE_URL || 'https://stg-proxy.bssm-dev.com';
 const HEADERS = {
   'bssm-dev-token': __ENV.BSSM_DEVELOPERS_CLIENT_ID,
   'bssm-dev-secret': __ENV.BSSM_DEVELOPERS_SECRET_KEY,
